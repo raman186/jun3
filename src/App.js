@@ -3,7 +3,7 @@ import "./styles.css";
 export default function App() {
   return (
     <>
-      <Child1
+      <Child3
         name="raman"
         age={23}
         isMarried={false}
@@ -17,12 +17,12 @@ export default function App() {
   );
 }
 
-const Child1 = ({ name, age, isMarried, hobbies, more }) => {
+const Child3 = ({ name, age, isMarried, hobbies, more }) => {
   console.log(name, age, isMarried, hobbies, more);
 
   return (
     <>
-      <h1> Child 1 </h1>
+      <h1> Child 3 </h1>
     </>
   );
 };
